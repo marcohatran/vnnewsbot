@@ -35,7 +35,6 @@ Following guideline to add more sites to scrape
 You can run a spider using the `scrapy crawl` command, such as:
 
     $ scrapy crawl
-    $ scrapy crawl -o quotes.json
 
 If you want to save the scraped data to a file, you can pass the `-o` option:
     
