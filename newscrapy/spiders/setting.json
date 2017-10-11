@@ -1,0 +1,11 @@
+{
+  "site1": {
+    "name": "VnExpress Kinh Doanh",
+    "url": "https://kinhdoanh.vnexpress.net",
+    "keyword": "(Samsung.*|Apple.*|Huawei.*|Oppo.*|Vivo.*|Qualcomm.*|Nokia.*|LG.*|Amazon.*|Nikkei.*|FPT.*|BKAV.*|PetroVietnam.*)",
+    "num_of_xpaths": "3",
+    "title": "//h3[@class=\"title_news\"]/a/@title",
+    "description": "//h4[@class=\"description\"]/text()",
+    "link": "//h3[@class=\"title_news\"]/a/@href"
+  }
+}
